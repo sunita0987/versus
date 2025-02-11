@@ -386,6 +386,7 @@ body {
 }
 
 .meet-button {
+  margin-left: -70%;
   background: #c6ff00;
   color: #000000;
   border: none;
@@ -393,6 +394,9 @@ body {
   font-size: 1rem;
   border-radius: 20px;
   cursor: pointer;
+}
+.meet-button:hover{
+  background-color: #00ff00;
 }
 
 /* .character-img {
@@ -404,7 +408,6 @@ body {
 } */
 
 .news-section {
-  /* max-width: 1200px; */
   min-height: 100vh;
   margin: auto;
 }
