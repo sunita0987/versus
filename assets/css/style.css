@@ -13,7 +13,6 @@
 }
 
 .container {
-  width: 1440px;
   padding-left: 12px;
   padding-right: 12px;
   margin-left: auto;
@@ -39,14 +38,14 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  background-color: #151A1F;
 }
 
 .logo {
-  margin-left: -10%;
+  left:10px;
 }
 
 .nav-links {
-  /* list-style: none; */
   display: flex;
   margin-left: -50%;
 }
@@ -60,12 +59,13 @@ body {
 }
 
 .nav-links .active {
-  color: yellow;
+  color:#d4ff27;
 }
 
 .nav-links:hover {
-  background-color: #d4ff27;
+  text-decoration: underline;
 }
+
 
 .auth-buttons button {
   padding: 12px 16px;
@@ -148,8 +148,6 @@ body {
 .graph {
   width: 181px;
   height: 24px;
-  /* margin-left: px;
-  margin-top: 20%; */
   margin-left: 700px;
   margin-top: 310px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -303,10 +301,10 @@ body {
   width: 80%;
   border-radius: 10px;
 }
-.play-button {
-  position: absolute;
+/* .play-button {
+  position: absolute; */
   /* top: 70%; */
-  left: 50%;
+  /* left: 50%;
   margin-top: 150px;
   transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, 0.6);
@@ -317,7 +315,10 @@ body {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-}
+} */
+
+
+
 .complete-button {
   background: #c6ff00;
   color: black;
