@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
     const gameCards = document.querySelectorAll(".game-card");
-
     gameCards.forEach(card => {
         card.addEventListener("click", () => {
             if (card.dataset.status === "coming-soon") {
