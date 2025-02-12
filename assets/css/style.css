@@ -220,10 +220,10 @@ body {
   border: 2px solid transparent;
 }
 
-.game-card:hover {
+/* .game-card:hover {
   transform: scale(1.05);
   border-color: #00ff00;
-}
+} */
 
 .game-card img {
   width: 100%;
@@ -263,10 +263,19 @@ body {
   min-height: 100vh;
   background-color: #000000;
 }
+
 .gaming-section {
   padding: 100px 50px;
   width: 100%;
 }
+
+/* .triangle{
+width: 1440px;
+height: 988px;
+left: 100%;
+top: 1673px;
+} */
+
 .title-1 {
   font-size: 36px;
   text-transform: uppercase;
@@ -329,13 +338,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px;
+  padding: 100px;
   /* color: white; */
   position: relative;
 }
-.top-image {
-  width: 1300px;
-}
+/* .top-image {
+
+} */
 .text-container {
   width: 1300px;
   height: 500px;
@@ -485,6 +494,62 @@ body {
   text-align: center;
   width: 100%;
 }
+.footer-image{
+  margin-bottom: 100px;
+}
+.subscription-box {
+  /* background-color: #d7ff00; */
+  padding: 30px;
+  margin-left: 40%;
+  width: 80%;
+  margin-top:-120px;
+  max-width: 700px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-content {
+  color: #000000;
+}
+.text-content h5 {
+  margin:0;
+  font-family: "normalidad";
+  font-size: 36px;
+  font-weight: 700;
+}
+.text-content p {
+  width: 456px;
+  opacity: 60%;
+  margin: 5px 0;
+  font-size: 14px;
+  color:#1F2309;
+}
+.input-container {
+  display: flex;
+  background-color:#000000;
+  border-radius: 12px;
+  padding: 5px;
+  align-items: center;
+}
+.input-container input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 200px;
+  font-size: 14px;
+  color: white;
+  background: none;
+}
+
+.input-container button {
+  background-color:#000000;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+ 
 
 .footer-container {
   max-width: 1200px;
@@ -500,9 +565,6 @@ body {
 
 .footer-top .logo {
   margin-left: 200px;
-  /* font-size: 24px;
-  font-weight: bold;
-  color: #c3ff00; */
 }
 
 .footer-content {
