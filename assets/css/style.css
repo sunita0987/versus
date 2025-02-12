@@ -152,13 +152,13 @@ body {
   margin-left: 700px;
   margin-top: 310px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-.graph-2 {
+} 
+  .graph-2 {
   position: absolute;
   left: 55%;
   top: 60%;
   transform: matrix(-1, 0, 0, 1, 0, 0);
-}
+} 
 
 .game-image {
   position: absolute;
@@ -638,11 +638,11 @@ body {
   .text-container {
     max-width: 100%;
   }
-  .character-img {
+  /* .character-img {
     position: static;
     max-width: 80%;
     margin-top: 20px;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
