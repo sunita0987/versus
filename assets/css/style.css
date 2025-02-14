@@ -239,7 +239,10 @@ margin-top: 30%;
   width: 100%;
 }
 .title-1 {
+  font-family: "normalidad";
   font-size: 36px;
+  line-height: 36px;
+  text-align: center;
   text-transform: uppercase;
   font-weight: 700;
   width: 432px;
@@ -263,7 +266,9 @@ margin-top: 30%;
   color: #000000;
   font-weight: 500;
   padding: 16px 24px;
+  font-family: "Normalidad";
   border: none;
+  line-height: 16px;
   cursor: pointer;
   font-size: 16px;
   border-radius: 20px;
