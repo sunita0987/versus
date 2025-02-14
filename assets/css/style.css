@@ -103,7 +103,8 @@ body {
   font-family: "Normalidad bold";
   font-size: 96px;
   line-height: 90%;
-  letter-spacing: -0.04em;
+  /* letter-spacing: -0.04em; */
+  letter-spacing: -4%;
 }
 @font-face {
   font-family: "normalidad";
@@ -128,6 +129,7 @@ body {
   cursor: pointer;
   z-index: 1;
   border-radius: 50px;
+  font-family: "normalidad";
 }
 .cta:hover {
   background-color:#00ff00;
@@ -191,16 +193,29 @@ margin-top: 30%;
 .game-info {
   margin-top: 10px;
 }
+
+
 .game-info h3 {
   margin: 5px 0;
   font-size: 18px;
+  font-family: "normalidad";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
 }
 .game-info p {
   font-size: 14px;
   color: #4d545e;
+  font-family: "normalidad";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
 }
 .tag {
   position: absolute;
+  font-family: "normalidad";
+  font-weight: 700;
+  font-size: 16px;
   top: 10px;
   left: 10px;
   background: #d4ff27;
@@ -436,10 +451,14 @@ margin-top: 30%;
   color: #000000;
 
 }
+@font-face {
+  font-family: "normalidad";
+  src: url("../font/NormalidadCompact-Black.ttf");
+}
 .text-content h5 {
   margin: 0;
-  font-family: "normalidad";
-  font-size: 36px;
+  font-family: "normalidad black";
+  font-size:16px;
   font-weight: 700;
 }
 .text-content p {
