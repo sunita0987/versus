@@ -383,13 +383,17 @@ body {
   margin-bottom: 20px;
 }
 .news-header h2 {
-  color: #aaff00;
+  color: #ffffff;
+  font-family: "normalidad";
+  font-weight: 700;
+  font-size: 24px;
 }
 .news-header a {
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
+  font-family: "normalidad";
 }
 .news-container {
   display: flex;
@@ -408,29 +412,60 @@ body {
 .news-content {
   padding: 30px;
 }
-.h3 {
+.news-heading {
   font-size: 16px;
+  font-family: "normalidad";
+  width: 612px;
+  height: 40px;
+  font-family: "Normalidad";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 .card-heading {
   width: 432px;
+  font-family: "normalidad";
+  height: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
 }
-.p {
+
+.news-paragraph {
+  margin-top: 20px;
   width: 612px;
+  height: 48px;
+  font-family: "Normalidad";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4d545e;
 }
 .tag-card {
   background: #000000;
   padding: 8px 12px;
   border-radius: 5px;
-  font-size: 14px;
   cursor: pointer;
   margin-left: -80%;
+  font-family: "normalidad";
+  font-weight: 400;
+  font-size: 14px;
 }
 .tag-card:hover {
   color: #4d545e;
 }
 .date {
   display: block;
-  margin-top: 10px;
+  margin-left: -50%;
+  margin-top: 20px;
+  font-family: "normalidad";
+  font-weight: 400;
+  font-size: 14px;
   color: #aaff00;
 }
 .news-side {
